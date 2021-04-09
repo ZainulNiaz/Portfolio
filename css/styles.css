@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+
+#abcd{
+  font-size: 450%;
+}
+#xyz{
+  width: 80%;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.a{
+  font-family: 'Kaushan Script' , cursive;
+  color: #eeebdd;
+  font-size: 450%;
+  animation: size-increase 1s ease-in forwards infinite alternate;
+}
+
+.b{
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 350%;
+  color: #eeebdd;
+  animation: transform 1s ease-in forwards infinite alternate;
+}
+
+.par{
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 150%;
+  color: #eeebdd;
+  animation: transform 1s ease-in forwards infinite alternate;
+}
+
+
+
+@keyframes size-increase {
+  100%{
+    transform: translateY(30%);
+
+  }
+}
+
+.fb1{
+
+}
+
+.fb2{
+}
+
+.fb1:hover .fb2{
+animation: bounceIn 2s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.flex1{
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.flexi1{
+  flex: 1;
+
+}
+.flexi2{
+  flex: 1;
+
+}
+.flexi3{
+  flex: 1;
+
+}
+
+.flexAM{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.flexAM1{
+  flex:1;
+
+}
+
+.flexAM2{
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.flexPF{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.flexPF1{
+  flex:7;
+}
+
+.flexPF2{
+
+  flex:1;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.pfhover{
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 350%;
+    color: #eeebdd;
+    animation: transform 1s ease-in forwards infinite alternate;
+
+}
+
+.pfhover:hover{
+  font-family: 'Creepster', cursive;
+  color: #e40017;
+  font-size: 550%;
+}
+
+
+.flexS{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexS1{
+  flex: 1;
+}
+
+.flexS11{
+  flex: 1;
+}
+
+.flexS2{
+  flex: 1;
+  display: flex;
+
+}
+
+
+
+.flexNS1{
+  flex: 1;
+}
+
+.textAnim{
+  font-family: 'Galdeano', sans-serif;
+}
+
+.SFlex:hover .textAnim{
+  animation: slide-in 1.5s ;
+}
+
+@keyframes slide-in {
+  0%{
+  opacity: 0;
+  transform:  translateX(-50%);
+  }
+
+  100%{
+    opacity: 1;
+    transform:  translateX(0%);
+  }
+}
+
+
+.Background1{
+  background-image: url("bg1.jpg");
+  background-size: contain;
+}
+
+.background2{
+  background-color: #caf7e3;
+}
+
+
+
+body {
+margin:0;
+}
+
+div{
+
+  text-align: center;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body{
+  background-image: url("bg1.jpg");
+}
+
+
+@media (max-width: 700) {
+  .a{
+    font-size: 150%;
+  }
+  .a{
+    font-size: 120%;
+  }
+}
