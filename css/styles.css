@@ -199,6 +199,17 @@ animation: bounceIn 2s;
   background-color: #caf7e3;
 }
 
+.flexPr{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.flexPr1{
+  flex: 1;
+}
+
 
 
 body {
